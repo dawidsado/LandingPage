@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawid Sadownik - student PJATK</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Montserrat:wght@300;400;700&family=Titillium+Web:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="welcome">
+            <h1>Dawid Sadownik</h1>
+            <h2>student polsko - japońskiej akademii technik komputerowych</h2>
+            <a href="#projekty">Zobacz moje portfolio</a>
+        </div>
+        <img src="images/MyPhotoNoBCG.png" alt="Zdjęcie Dawid Sadownik">
+    </header>
+    <section>
+        <div class="aboutme">
+            <h1>Kilka słów o mnie</h1>
+            <p>Jestem studentem pierwszego roku studiów inżynierskich o kierunku Zarządzania informacją. Interesuję się
+                zastosowaniem nowoczesnych technologii w biznesie, poczynając od analizy procesów, które występują w
+                organizacji, na etapie wdrożenia i utrzymania oprogramowania kończąc. Wierzę w progresywny proces
+                digitalizacji z wykorzystaniem systemów klasy ERP, które będą wspierane poprzez moduły oparte o AI.
+                Zajęcia z podstaw programowania w Javie, na które uczęszczałem w trakcie trwania pierwszego roku
+                studiów, rozwinęły moje zainteresowanie programowaniem związanym z warstwą back - end. Wpłynęły one na
+                kształtowanie umiejętności myślenia abstrakcyjnego, między innym dzięki nim zainteresowałem się językiem
+                programowania platformy SAP – ABAP.
+                Aktualnie poznaję podstawowe technologie webowe – HTML oraz CSS. Efektem nabytej wiedzy jest stworzona
+                przeze mnie responsywna strona – wizytówka. Uczę się podstawowych funkcjonalności systemu SAP ERP,
+                poznaję model
+                klasyfikacji procesów APQC, język modelowania UML oraz stale poszerzam swoją wiedzę na temat Javy.
+                W niedalekiej przyszłości planuję poznać język zapytań SQL na poziomie średnio zaawansowanym oraz
+                rozszerzyć swoją wiedzę z zakresu statystyki.
+                Docelowo chciałbym pracować jako konsultant do spraw systemów wspomagania zarządzania ERP.
+                Pasjonuję się również sportem, trenuję biegi długodystansowe oraz kolarstwo szosowe.
+            </p>
+        </div>
+    </section>
+    <section class="features clearfix">
+        <h1>Technologie</h1>
+        <div class="feature">
+            <img src="icons/java.png" alt="logo java">
+            <h2>Java</h2>
+            <p class="description">Znajomość podstawowych elementów: typy danych, zmienne, operatory, instrukcje
+                warunkowe, pętle iteracyjne, tablice, listy.
+                Wiedza na temat paradygmatu programowania obiektowego, pojęcia: klasa, obiekt, wykorzystanie
+                interfejsów, konstruktory, przeciążanie metod, specyfikatory dostępu, konstrukcja super, typ
+                wyliczeniowy Enum, tworzenie i obsługa wyjątków.
+                Znajomość podstawowych założeń programowania obiektowego: abstrakcja, hermetyzacja, polimorfizm i
+                dziedziczenie.
+                Świadomość dobrych praktyk (DRY, S.O.L.I.D., YAGNI, KISS).
+                Praca w podstawowym zakresie z biblioteką Selenium.
+                Umiejętność rozwiązywania prostych problemów programistycznych, tworzenia podstawowych aplikacji
+                konsolowych oraz czytania kodu.
+            </p>
+        </div>
+
+        <div class="feature">
+            <img src="icons/coding.png" alt="logo java">
+            <h2>Web development</h2>
+            <p class="description">Najważniejsze znaczniki oraz atrybuty HTML. Znajomość fundamentów stylów CSS:
+                właściwości fontów, wykorzystanie modelu pudełkowego, dziedziczenie, kaskadowość, selektory, właściwości
+                display, użycie background, elementy blokowe oraz liniowe, właściwości float, pseudoelementy,
+                zastosowanie media queries.
+                Umiejętność stworzenia prostej oraz responsywnej strony internetowej, wykorzystującej wyżej wymienione
+                technologie.
+            </p>
+        </div>
+
+        <div class="feature">
+            <img src="icons/erp.png" alt="logo java">
+            <h2>Systemy ERP</h2>
+            <p class="description">Wiedza teoretyczna na temat podejścia procesowego (znajomość metodyki
+                reengineeringu), etapów zarządzania procesowego oraz selekcji procesów. Aktualnie poznaję system SAP
+                ERP, jego architekturę, wybrane procesy oraz GUI – pracę z transakcjami, sesjami czy raportami. Przy
+                okazji nauki tego oprogramowania poznaję model APQC.
+                Posiadam również wiedzę z zakresu rachunkowości, która ułatwia mi poznawanie tego systemu.
+            </p>
+        </div>
+    </section>
+    <section class="portfolio">
+        <a name="projekty"></a>
+        <h1>Projekty</h1>
+        <div class="project clearfix">
+            <div class="web">
+                <img src="images/MiniBankingAppUML2.png" alt="portfolio MiniBankingApp">
+            </div>
+            <div class="about">
+                <h2><a href="https://github.com/dawidsado/MiniBankingApp">MiniBankingApp</a></h2>
+                <p>
+                    Mały system bankowy, który ma za zadanie symulacje operacji takich jak: sprawdzenie stanu konta,
+                    wykonanie przelewu, dokonanie wpłaty, generowanie indywidualnego hasła dla użytkowników oraz
+                    tworzenie karty kredytowej. Dodatkowo możemy wyodrębnić trzech różnych użytkowników (klient,
+                    pracownik, administrator), którzy mają możliwość wykonywania różnych działań (np. administrator
+                    posiada największy zakres umiejętności, może przyjmować wpłaty, ale też usuwać i dodawać
+                    pracowników, z kolei klient ma najmniejszy – posiada konto, automatycznie generowane ID oraz hasło,
+                    może wykonywać operacje.
+                    W trakcie tworzenia programu wykorzystywałem swoją wiedzę z zakresu: programowania obiektowego
+                    (klasy, obiekty, interfejsy, klasy abstrakcyjne, dziedziczenie), użycia pętli, list oraz bloków
+                    inicjalizacyjnych, tworzenia własnych wyjątków, zastosowania klasy Date oraz metod hashCode i
+                    valueOf.
+                </p>
+            </div>
+        </div>
+
+        <div class="project clearfix">
+            <div class="web">
+                <img src="images/MiniShoppingAppUML.png" alt="portfolio projekt 2">
+            </div>
+            <div class="about">
+                <h2><a href="https://github.com/dawidsado/MiniWebShop">MiniShoppingApp</a></h2>
+                <p>Program symulujący zakupy online, szczególny nacisk położony na dokonywanie zakupów z perspektywy
+                    dwóch różnych kont: użytkownika – wszystkie dane, gościa – tylko e-mail. Informacja dotycząca pola
+                    czy jest to konto gościa uzupełnia się automatycznie. Jest również możliwość stworzenia konta
+                    użytkownika z poziomu konta gościa za pomocą metody changeStatus. Proces dodawania nowych produktów
+                    powiększa listę z klasy Cart, kiedy spróbujemy dodać więcej produktów niż jest na stanie otrzymamy
+                    błąd. Metoda płatności – payment korzysta z pętli iteracyjnej for – each i zwraca cenę wszystkich
+                    produktów znajdujących się w koszyku.
+                    Tworząc program korzystałem z wiedzy dotyczącej: pętli (szczególnie pętli for – each, która jest
+                    bardziej właściwa do pracy na kolekcjach), przeciążania konstruktorów, korzystania z list.
+                </p>
+            </div>
+        </div>
+
+        <div class="project clearfix">
+            <div class="web">
+                <img src="images/seleniumGifConverted.gif" alt="portfolio projekt 3">
+            </div>
+            <div class="about">
+                <h2><a
+                        href="https://github.com/dawidsado/CheckingScheduleSelenium/blob/main/SeleniumScript.java">GakkoTest</a>
+                </h2>
+                <p>Gakko to strona, na której studenci PJATK mają dostęp do między innymi swojego planu lekcji.
+                    Wykorzystując znajomość poszczególnych elementów języka Java, umiejętność czytania kodu źródłowego
+                    strony oraz podstawowe metody zewnętrznej biblioteki Selenium napisałem program, który umożliwia
+                    test strony. Program jest podzielony na dwie metody (podejście strukturalne): loginToSchoolAccount –
+                    odpowiada za zalogowanie się do systemu gakko (przydatna w testach regresywnych, będzie zapewne
+                    powtarzana cyklicznie) oraz checkingMySchedule – logowanie do podstrony odpowiadającej za plan
+                    lekcji, wyszukiwanie planu na najbliższy tydzień dla konkretnej grupy.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h1>Skontaktuj się ze mną</h1>
+        <div class="wrap clearfix">
+            <form action="https://formsubmit.io/send/dawidsadownik7@gmail,com" method="POST">
+                <label for="mail"></label>
+                <input id="mail" name="mail" type="mail" placeholder="Twój e-mail">
+
+                <label for="msg"></label>
+                <textarea name="msg" id="msg" rows="5" placeholder="Wpisz wiadomość"></textarea>
+
+                <input name="_formsubmit_id" type="text" style="display:none">
+
+                <input class="send" value="Wyślij" type="submit"> </button>
+            </form>
+            <div class="socials">
+                <div class="social clearfix">
+                    <img src="icons/icons8-mail-90.png" width="60" height="60" alt="kontakt email">
+                    <span>dawidsadownik7@gmail.com</span>
+                </div>
+                <div class="social clearfix">
+                    <img src="icons/icons8-github-90.png" width="60" height="60" alt="kontakt github">
+                    <span>dawidsado</span>
+                </div>
+                <div class="social clearfix">
+                    <img src="icons/linkedin.png" width="60" height="60" alt="kontakt linkedin">
+                    <span>Dawid Sadownik</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; Dawid Sadownik
+        <br>
+        <p>
+            <a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Flat Icons -
+                Flaticon </a>
+            ,
+            <a href="https://www.flaticon.com/free-icons/web-development" title="web development icons">Web development
+                icons created by nawicon - Flaticon </a>
+            ,
+            <a href="https://www.flaticon.com/free-icons/erp" title="erp icons">Erp icons created by Freepik - Flaticon
+            </a>
+            ,
+            <a target="_blank" href="https://icons8.com/icon/60688/mail">Mail</a> icon by <a target="_blank"
+                href="https://icons8.com">Icons8 </a>
+            ,
+            <a target="_blank" href="https://icons8.com/icon/62856/github">GitHub</a> icon by <a target="_blank"
+                href="https://icons8.com">Icons8 </a>
+            ,
+            <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by
+                Freepik - Flaticon </a>
+        </p>
+    </footer>
+</body>
+
+</html>
