@@ -17,7 +17,7 @@ I also created anchors, to other locations within the same page (to the projects
 
 
 ## •	WHAT IT LOOKS LIKE? 🤔
-<br></br>
+
 
 ### •	AT COMPUTERS 🖥 👇
 
