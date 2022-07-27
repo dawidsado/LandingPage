@@ -30,4 +30,14 @@ https://user-images.githubusercontent.com/77989461/181117783-2d1dfbd1-432b-4e6b-
 ![Minimalistyczny Kolaż Twoja Relacja](https://user-images.githubusercontent.com/77989461/181222675-f9a32c9e-f949-4184-a443-34577e0acb49.png)
 
 ## •	WHAT HAD I PRACTICED DURING THAT PROJECT? 🤔
+-	Basic HTML attributes and tags
 
+-	Fundamentals of CSS properties (e.g. float, display)
+
+-	Media queries feature
+
+-	Box model
+
+-	Selectors
+
+-	Pseudo – elements
